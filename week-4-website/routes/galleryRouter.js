@@ -24,7 +24,7 @@ router.get('/works', (req, res) => {
             year: 1944
         },
         {
-            name: 'Self portrait along the boarder line between mexico and the united states',
+            name: 'Self portrait on the Borderline between Mexico and the United States',
             img: 'https://www.fridakahlo.org/images/paintings/self-portrait-along-the-boarder-line-between-mexico-and-the-united-states.jpg',
             year: 1932
         },
@@ -34,7 +34,7 @@ router.get('/works', (req, res) => {
             year: 1939
         },
         {
-            name: 'Still life with parrot',
+            name: 'Still Life with Parrot',
             img: 'https://www.fridakahlo.org/images/paintings/still-life-with-parrot.jpg',
             year: 1951
         },
