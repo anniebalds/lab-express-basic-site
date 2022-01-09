@@ -1,0 +1,13 @@
+<p class='quote'>“They thought I was a Surrealist, but I wasn't. I never painted dreams. I painted my own reality.”</p>
+
+<div class="gallery">
+    {{#each paintings}}
+        <div class='painting'>
+        <img src={{this.img}} alt="painting">
+        <div class='info'>
+        <p>{{this.name}}</p>
+        <p>{{this.year}}</p>
+        </div>
+        </div>
+    {{/each}}
+</div>
